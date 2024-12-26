@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #movie-details {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  #movie-menu {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .film {
+    cursor: pointer;
+  }
+  
+  .sold-out {
+    text-decoration: line-through;
+    color: red;
+  }
+  
